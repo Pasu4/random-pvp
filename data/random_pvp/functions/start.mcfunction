@@ -20,7 +20,7 @@ gamerule doImmediateRespawn false
 
 gamerule naturalRegeneration true
 
-execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 90 false @a", auto:1}
+execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 90 true @a", auto:1}
 execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"execute as @a run function random_pvp:handicap", auto:1}
 execute at @r run setblock ~ ~2 ~ chain_command_block[facing=up]{Command:"fill ~ ~-2 ~ ~ ~ ~ air", auto:1}
 
