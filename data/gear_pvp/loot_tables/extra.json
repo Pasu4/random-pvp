@@ -1,0 +1,180 @@
+{
+    "pools": [
+        {
+            "rolls":
+            {
+                "type": "score",
+                "target": {"type": "context", "target": "this"},
+                "score": "invHandicap"
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lava_bucket"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:water_bucket"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint_and_steel"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "gear_pvp:tnt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 24
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "treasure": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fishing_rod"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "gear_pvp:elytra"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:turtle_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 35,
+                            "treasure": false
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:milk_bucket"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_rose",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;14602026],FadeColors:[I;11743532]},{Type:4,Flicker:0,Trail:0,Colors:[I;11743532],FadeColors:[I;4408131]},{Type:4,Flicker:0,Trail:0,Colors:[I;4408131],FadeColors:[I;1973019]},{Type:4,Flicker:0,Trail:0,Colors:[I;15790320],FadeColors:[I;14602026]},{Type:4,Flicker:0,Trail:1,Colors:[I;11250603]},{Type:4,Flicker:0,Trail:1,Colors:[I;4408131]},{Type:4,Flicker:0,Trail:1,Colors:[I;1973019]}]}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gear_pvp:horse"
+                }
+            ]
+        }
+    ]
+}

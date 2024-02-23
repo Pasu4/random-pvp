@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "score",
+                                "target": {"type": "context", "target": "this"},
+                                "score": "invHandicap",
+                                "scale": 16
+                            }
+                        },
+                        {
+                            "function": "limit_count",
+                            "limit": {
+                                "min": 4,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_beef",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "score",
+                                "target": {"type": "context", "target": "this"},
+                                "score": "invHandicap",
+                                "scale": 16
+                            }
+                        },
+                        {
+                            "function": "limit_count",
+                            "limit": {
+                                "min": 8,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "score",
+                                "target": {"type": "context", "target": "this"},
+                                "score": "invHandicap",
+                                "scale": 16
+                            }
+                        },
+                        {
+                            "function": "limit_count",
+                            "limit": {
+                                "min": 16,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
