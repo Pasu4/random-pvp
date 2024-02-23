@@ -48,6 +48,17 @@ execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:
 execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
 execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
 
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+execute at @r run summon minecraft:evoker ~ ~1 ~ {Invulnerable:1,CustomName:'"Jimmy"',CustomNameVisible:1,PersistenceRequired:1b}
+
 effect give @e[type=vindicator] speed 1000000 2 true
 effect give @e[type=vindicator] resistance 1000000 3 true
 
