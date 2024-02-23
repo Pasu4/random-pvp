@@ -22,7 +22,7 @@ gamerule doImmediateRespawn false
 
 gamerule naturalRegeneration true
 
-execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 100 under 63 false @a", auto:1}
+execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 100 under 63 true @a", auto:1}
 execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"fill ~ ~-1 ~ ~ ~ ~ air", auto:1}
 
 worldborder set 51 300
@@ -37,25 +37,27 @@ bossbar set minecraft:time color green
 
 #Mobs
 
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
-execute at @r run summon minecraft:vindicator ~ ~1 ~ {CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
+execute at @r run summon minecraft:vindicator ~ ~1 ~ {Invulnerable:1,CustomName:'"Johnny"',CustomNameVisible:1,PersistenceRequired:1b,Johnny:1b,HandItems:[{id:"minecraft:netherite_axe",Count:1,tag:{Enchantments:[{id:"sharpness",lvl:5}]}},{}],HandDropChances:[0F,0F],active_effects:[{id:"speed",amplifier:4}]}
 
 effect give @e[type=vindicator] speed 1000000 2 true
 effect give @e[type=vindicator] resistance 1000000 3 true
 
-execute at @r run summon minecraft:phantom ~ ~20 ~ {PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
-execute at @r run summon minecraft:phantom ~ ~20 ~ {PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
-execute at @r run summon minecraft:phantom ~ ~20 ~ {PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
-execute at @r run summon minecraft:phantom ~ ~20 ~ {PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
-execute at @r run summon minecraft:phantom ~ ~20 ~ {PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
+execute at @r run summon minecraft:phantom ~ ~20 ~ {Invulnerable:1,PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
+execute at @r run summon minecraft:phantom ~ ~20 ~ {Invulnerable:1,PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
+execute at @r run summon minecraft:phantom ~ ~20 ~ {Invulnerable:1,PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
+execute at @r run summon minecraft:phantom ~ ~20 ~ {Invulnerable:1,PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
+execute at @r run summon minecraft:phantom ~ ~20 ~ {Invulnerable:1,PersistenceRequired:1b,Size:9,HandDropChances:[0F,0F],HandItems:[{id:"minecraft:netherite_sword",tag:{display:{Name:'{"text":"The Knockbacker"}'},Enchantments:[{id:"knockback",lvl:5}]},Count:1},{}]}
 
 effect give @e[type=phantom] fire_resistance 1000000 0 true
 effect give @e[type=phantom] resistance 1000000 3 true
+
+give @a netherite_pickaxe{Unbreakable:true}
