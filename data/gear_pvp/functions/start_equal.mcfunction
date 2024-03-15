@@ -13,6 +13,7 @@ scoreboard players operation @a invHandicap += MaxHandicap const
 scoreboard players operation Temp var = @s handicap
 scoreboard players operation @s handicap = MaxHandicap const
 
+# loot give @a loot gear_pvp:standard_items
 loot give @a loot gear_pvp:basic
 loot give @a loot gear_pvp:gear
 

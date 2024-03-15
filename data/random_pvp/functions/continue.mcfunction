@@ -20,8 +20,9 @@ gamerule doImmediateRespawn false
 
 gamerule naturalRegeneration true
 
-execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 100 false @a", auto:1}
-execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"fill ~ ~-1 ~ ~ ~ ~ air", auto:1}
+# execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 100 false @a", auto:1}
+# execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"fill ~ ~-1 ~ ~ ~ ~ air", auto:1}
+schedule function random_pvp:start_tick1 2t
 
 worldborder set 51 300
 

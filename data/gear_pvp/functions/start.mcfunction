@@ -9,6 +9,7 @@ execute as @a run scoreboard players operation @s invHandicap = @s handicap
 scoreboard players operation @a invHandicap *= MinusOne const
 scoreboard players operation @a invHandicap += MaxHandicap const
 
+# loot give @a loot gear_pvp:standard_items
 loot give @a loot gear_pvp:basic
 execute as @a run loot give @s loot gear_pvp:gear
 #loot give @a loot gear_pvp:gear

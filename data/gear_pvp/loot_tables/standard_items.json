@@ -58,26 +58,27 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:obsidian",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "score",
-                                "target": {"type": "context", "target": "this"},
-                                "score": "invHandicap",
-                                "scale": 16
-                            }
-                        },
-                        {
-                            "function": "limit_count",
-                            "limit": {
-                                "min": 16,
-                                "max": 64
-                            }
-                        }
-                    ]
+                    "type": "minecraft:tag",
+                    "expand": true,
+                    "name": "minecraft:logs_that_burn"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "type": "score",
+                        "target": {"type": "context", "target": "this"},
+                        "score": "invHandicap",
+                        "scale": 16
+                    }
+                },
+                {
+                    "function": "limit_count",
+                    "limit": {
+                        "min": 16,
+                        "max": 64
+                    }
                 }
             ]
         }
