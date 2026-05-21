@@ -39,16 +39,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:trident",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 30
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:ender_pearl",
                     "functions": [
                         {

@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "netherite_spear",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "gear_pvp:horse"
+        }
+      ]
+    }
+  ]
+}

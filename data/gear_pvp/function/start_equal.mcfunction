@@ -15,6 +15,7 @@ scoreboard players operation @s handicap = MaxHandicap const
 
 # loot give @a loot gear_pvp:standard_items
 loot give @a loot gear_pvp:basic
+loot give @a loot gear_pvp:secondary_weapon
 loot give @a loot gear_pvp:gear
 
 scoreboard players operation @s handicap = Temp var

@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "gear_pvp:secondary/mace"
+        },
+        {
+          "type": "loot_table",
+          "value": "gear_pvp:secondary/spear"
+        },
+        {
+          "type": "loot_table",
+          "value": "gear_pvp:secondary/trident"
+        }
+      ]
+    }
+  ]
+}
