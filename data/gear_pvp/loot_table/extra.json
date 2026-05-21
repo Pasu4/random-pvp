@@ -216,6 +216,102 @@
                 {
                     "type": "loot_table",
                     "value": "gear_pvp:camel"
+                },
+                {
+                    "type": "item",
+                    "name": "happy_ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "entity_data": {
+                                    "id": "happy_ghast",
+                                    "equipment": {
+                                        "body": {
+                                            "id": "black_harness"
+                                        }
+                                    },
+                                    "Age": 0,
+                                    "active_effects": [
+                                        {
+                                            "id": "resistance",
+                                            "amplifier": 2,
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "wooden_spear",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "unbreaking": 3,
+                                "lunge": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wind_charge",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 24,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "gear_pvp:wither"
+                },
+                {
+                    "type": "item",
+                    "name": "pointed_dripstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 24
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "knockback": 5
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "weapon": {},
+                                "max_damage": 10,
+                                "max_stack_size": 1,
+                                "damage": 0
+                            }
+                        }
+                    ]
                 }
             ]
         }

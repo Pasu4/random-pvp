@@ -133,10 +133,40 @@
                     "functions": [
                         {
                             "function": "set_potion",
-                            "id": "turtle_master"
+                            "id": "wind_charged"
                         }
                     ],
-                    "name": "minecraft:potion"
+                    "name": "minecraft:splash_potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "weaving"
+                        }
+                    ],
+                    "name": "minecraft:splash_potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "oozing"
+                        }
+                    ],
+                    "name": "minecraft:splash_potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "infested"
+                        }
+                    ],
+                    "name": "minecraft:splash_potion"
                 },
                 {
                     "type": "minecraft:item",
