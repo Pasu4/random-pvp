@@ -41,3 +41,5 @@ scoreboard objectives setdisplay list wins
 bossbar add time "Time"
 bossbar set minecraft:time style notched_10
 bossbar set minecraft:time max 12000
+
+worldborder damage buffer 0

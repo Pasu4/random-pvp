@@ -24,7 +24,7 @@ gamerule natural_health_regeneration true
 # execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"fill ~ ~-1 ~ ~ ~ ~ air", auto:1}
 schedule function random_pvp:start_tick1 2t
 
-worldborder set 51 300
+worldborder set 51 300s
 
 #Scoreboard
 scoreboard players set Timer var 0

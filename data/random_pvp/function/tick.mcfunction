@@ -5,7 +5,7 @@ execute if score Playing var matches 1 run scoreboard players remove TimeLeft va
 
 execute if score Timer var matches 6000 if score Playing var matches 1 run bossbar set minecraft:time color yellow
 
-execute if score Timer var matches 9000 if score Playing var matches 1 run worldborder set 11 30
+execute if score Timer var matches 9000 if score Playing var matches 1 run worldborder set 11 30s
 execute if score Timer var matches 9000 if score Playing var matches 1 run tellraw @a {"text":"Deathmatch started!","color":"red"}
 execute if score Timer var matches 9000 if score Playing var matches 1 run bossbar set minecraft:time color red
 

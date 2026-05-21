@@ -1,18 +1,25 @@
 #execute unless @a[gamemode=survival] run tellraw @a "No survival players found."
 #tag @r[gamemode=survival] add spread
+
+# Teleport a random player to a random location in the world
 tag @r add spread
 spreadplayers 0 0 0 10000000 false @a[tag=spread]
-#execute as @a[tag=spread] at @s align xz run tp ~.5 ~ ~.5
+
+# Teleport every player to that position and set up arena
 tp @a @a[tag=spread,limit=1]
 execute at @a[tag=spread] align xz positioned ~.5 ~ ~.5 run worldborder center ~ ~
 execute at @a[tag=spread] run worldborder set 201
 execute at @a[tag=spread] run spawnpoint @a ~ ~ ~
+execute at @a[tag=spread] run setworldspawn ~ ~ ~
 tag @a remove spread
+
+# Reset round
 clear @a[gamemode=survival]
 time set 1000
-
 effect clear @a
+gamerule natural_health_regeneration true
 
+# Kill and immediately respawn players
 execute as @a at @s run spawnpoint @s ~ ~ ~
 gamerule immediate_respawn true
 gamerule show_death_messages false
@@ -20,16 +27,12 @@ kill @a
 gamerule immediate_respawn false
 gamerule show_death_messages true
 
-gamerule natural_health_regeneration true
-
-# execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 90 true @a", auto:1}
-# execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"execute as @a run function random_pvp:handicap", auto:1}
-# execute at @r run setblock ~ ~2 ~ chain_command_block[facing=up]{Command:"fill ~ ~-2 ~ ~ ~ ~ air", auto:1}
 schedule function random_pvp:start_tick1 2t
 
-worldborder set 51 300
+# Shrink worldborder in the first half of the game
+worldborder set 51 300s
 
-#Scoreboard
+# Scoreboard
 scoreboard players set Timer var 0
 scoreboard players set TimeLeft var 12000
 scoreboard players set Playing var 1
