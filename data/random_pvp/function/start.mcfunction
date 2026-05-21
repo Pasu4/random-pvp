@@ -39,3 +39,11 @@ scoreboard players set Playing var 1
 scoreboard players set @a deaths 0
 
 bossbar set minecraft:time color green
+
+# Set random weather
+weather clear 1000000d
+execute if predicate random_pvp:rain run weather rain 1000000d
+execute if predicate random_pvp:thunder run weather thunder 1000000d
+
+# Set weather based on inventory items
+execute if entity @a[nbt={Inventory:[{components:{"minecraft:enchantments":{"minecraft:channeling":1}}}]}] run weather thunder 1000000d
