@@ -14,11 +14,11 @@ time set 1000
 #effect give @a minecraft:saturation 10 0 true
 #effect give @a hunger 3 199 true
 execute as @a at @s run spawnpoint @s ~ ~ ~
-gamerule doImmediateRespawn true
+gamerule immediate_respawn true
 kill @a
-gamerule doImmediateRespawn false
+gamerule immediate_respawn false
 
-gamerule naturalRegeneration true
+gamerule natural_health_regeneration true
 
 # execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 100 false @a", auto:1}
 # execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"fill ~ ~-1 ~ ~ ~ ~ air", auto:1}

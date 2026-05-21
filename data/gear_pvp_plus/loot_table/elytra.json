@@ -24,8 +24,12 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Flight:1}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "fireworks": {
+                  "flight_duration": 1
+                }
+              }
             }
           ]
         }

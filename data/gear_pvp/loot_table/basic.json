@@ -9,8 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -25,8 +24,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -41,8 +39,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -57,8 +54,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -73,8 +69,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -89,8 +84,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 }
@@ -105,8 +99,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 }
@@ -121,8 +114,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 }
@@ -137,8 +129,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 }
@@ -152,8 +143,10 @@
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{lvl:3, id:\"minecraft:unbreaking\"}]}"
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "unbreaking": 3
+                            }
                         }
                     ]
                 }
@@ -168,8 +161,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 50,
-                            "treasure": false
+                            "levels": 50
                         }
                     ]
                 }
@@ -184,8 +176,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 }

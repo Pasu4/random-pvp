@@ -10,7 +10,7 @@ execute if score Timer var matches 9000 if score Playing var matches 1 run tellr
 execute if score Timer var matches 9000 if score Playing var matches 1 run bossbar set minecraft:time color red
 
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run tellraw @a {"text":"Time has run out. Natural regeneration is now disabled!","color":"red"}
-execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run gamerule naturalRegeneration false
+execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run gamerule natural_health_regeneration false
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run function random_pvp:endgame
 
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches 1.. run tellraw @a {"text":"Timeout! The game is a draw.","color":"blue"}

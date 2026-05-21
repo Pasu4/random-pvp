@@ -1,11 +1,18 @@
-#scoreboard objectives add timer dummy "Time"
-#scoreboard objectives add playing dummy "Playing"
-#scoreboard objectives add bool dummy "Boolean"
-#scoreboard objectives add alive dummy "Alive Players"
-#scoreboard objectives add timeLeft dummy "Time left"
-#scoreboard objectives add minutes dummy "Minutes left"
-#scoreboard objectives add seconds dummy "Seconds left"
-#scoreboard objectives add clipboard dummy "Clipboard"
+#declare score_holder Global
+#declare score_holder MaxHandicap
+#declare score_holder MinusOne
+#declare score_holder Zero
+#declare score_holder WinsIsHandicap
+#declare score_holder TimeoutIsDraw
+#declare score_holder #ApplyHandicap Applies handicap in equal mode
+
+#declare objective var
+#declare objective const
+#declare objective deaths
+#declare objective handicap
+#declare objective invHandicap
+#declare objective wins
+#declare objective gamerule
 
 scoreboard objectives add var dummy
 scoreboard objectives add const dummy
@@ -19,13 +26,6 @@ scoreboard objectives add gamerule dummy "Gamerules"
 
 scoreboard players set Timer var 0
 scoreboard players set Playing var 0
-
-#declare score_holder MaxHandicap
-#declare score_holder MinusOne
-#declare score_holder Zero
-#declare score_holder WinsIsHandicap
-#declare score_holder TimeoutIsDraw
-#declare score_holder #ApplyHandicap Applies handicap in equal mode
 
 scoreboard players set MaxHandicap const 5
 scoreboard players set MinusOne const -1

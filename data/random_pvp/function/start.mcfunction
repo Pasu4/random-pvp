@@ -14,13 +14,13 @@ time set 1000
 effect clear @a
 
 execute as @a at @s run spawnpoint @s ~ ~ ~
-gamerule doImmediateRespawn true
-gamerule showDeathMessages false
+gamerule immediate_respawn true
+gamerule show_death_messages false
 kill @a
-gamerule doImmediateRespawn false
-gamerule showDeathMessages true
+gamerule immediate_respawn false
+gamerule show_death_messages true
 
-gamerule naturalRegeneration true
+gamerule natural_health_regeneration true
 
 # execute at @r run setblock ~ ~ ~ command_block[facing=up]{Command:"execute at @r run spreadplayers ~ ~ 50 90 true @a", auto:1}
 # execute at @r run setblock ~ ~1 ~ chain_command_block[facing=up]{Command:"execute as @a run function random_pvp:handicap", auto:1}

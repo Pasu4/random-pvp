@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "gear_pvp:standard_items"
+                    "value": "gear_pvp:standard_items"
                 }
             ]
         },
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "gear_pvp:extra"
+                    "value": "gear_pvp:extra"
                 }
             ]
         },
@@ -24,7 +24,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gear_pvp:arrows"
+                    "value": "gear_pvp:arrows"
                 }
             ]
         },
@@ -33,7 +33,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gear_pvp:potions"
+                    "value": "gear_pvp:potions"
                 }
             ]
         },
@@ -42,7 +42,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gear_pvp:eggs"
+                    "value": "gear_pvp:eggs"
                 }
             ]
         }

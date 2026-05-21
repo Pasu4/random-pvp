@@ -8,8 +8,30 @@
                     "name": "horse_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{EntityTag:{id:\"minecraft:horse\",SaddleItem:{id:saddle,Count:1},Age:0,Tame:1,ArmorItem:{id:\"diamond_horse_armor\",Count:1},ActiveEffects:[{Id:11,Amplifier:2,Duration:2147483647,ShowParticles:0b}]}}"
+                            "function": "set_components",
+                            "components": {
+                                "entity_data": {
+                                    "id": "horse",
+                                    "equipment": {
+                                        "saddle": {
+                                            "id": "saddle"
+                                        },
+                                        "body": {
+                                            "id": "diamond_horse_armor"
+                                        }
+                                    },
+                                    "Age": 0,
+                                    "Tame": true,
+                                    "active_effects": [
+                                        {
+                                            "id": "resistance",
+                                            "amplifier": 2,
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "set_count",
