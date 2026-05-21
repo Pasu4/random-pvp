@@ -37,6 +37,7 @@ scoreboard players set Timer var 0
 scoreboard players set TimeLeft var 12000
 scoreboard players set Playing var 1
 scoreboard players set @a deaths 0
+scoreboard players set @a[gamemode=!survival] deaths 1
 
 bossbar set minecraft:time color green
 
