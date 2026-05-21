@@ -21,6 +21,16 @@
         {
           "type": "loot_table",
           "value": "gear_pvp:horse"
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "strong_swiftness"
+            }
+          ]
         }
       ]
     }
