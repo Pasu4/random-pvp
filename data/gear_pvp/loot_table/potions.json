@@ -12,12 +12,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "swiftness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "swiftness"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -26,12 +22,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "slowness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "slowness"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -40,12 +32,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strength"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strength"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -54,12 +42,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "healing"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "healing"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -68,12 +52,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "harming"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "harming"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -82,12 +62,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "regeneration"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "regeneration"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -96,12 +72,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "fire_resistance"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "fire_resistance"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -110,12 +82,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "water_breathing"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "water_breathing"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -124,12 +92,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "invisibility"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "invisibility"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -138,12 +102,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "night_vision"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "night_vision"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -152,12 +112,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "weakness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "weakness"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -166,12 +122,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "poison"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "poison"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -180,12 +132,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "turtle_master"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "turtle_master"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -194,12 +142,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_swiftness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_swiftness"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -208,12 +152,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_slowness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_slowness"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -222,12 +162,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_strength"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_strength"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -236,12 +172,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_healing"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_healing"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -250,12 +182,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_harming"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_harming"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -264,12 +192,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_leaping"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_leaping"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -278,12 +202,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_regeneration"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_regeneration"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -292,12 +212,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_poison"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_poison"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -306,12 +222,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "strong_turtle_master"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "strong_turtle_master"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -320,12 +232,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_swiftness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_swiftness"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -334,12 +242,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_slowness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_slowness"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -348,12 +252,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_strength"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_strength"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -362,12 +262,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_leaping"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_leaping"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -376,12 +272,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_regeneration"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_regeneration"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -390,12 +282,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_fire_resistance"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_fire_resistance"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -404,12 +292,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_water_breathing"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_water_breathing"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -418,12 +302,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_invisibility"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_invisibility"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -432,12 +312,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_night_vision"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_night_vision"
                         }
                     ],
                     "name": "minecraft:potion"
@@ -446,12 +322,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_weakness"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_weakness"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -460,12 +332,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_poison"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_poison"
                         }
                     ],
                     "name": "minecraft:splash_potion"
@@ -474,12 +342,8 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {
-                                "potion_contents": {
-                                    "potion": "long_turtle_master"
-                                }
-                            }
+                            "function": "set_potion",
+                            "id": "long_turtle_master"
                         }
                     ],
                     "name": "minecraft:potion"

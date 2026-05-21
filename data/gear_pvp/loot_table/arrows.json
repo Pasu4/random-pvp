@@ -20,12 +20,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "slowness"
-                }
-              }
+              "function": "set_potion",
+              "id": "slowness"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -42,12 +38,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "harming"
-                }
-              }
+              "function": "set_potion",
+              "id": "harming"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -64,12 +56,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "weakness"
-                }
-              }
+              "function": "set_potion",
+              "id": "weakness"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -86,12 +74,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "poison"
-                }
-              }
+              "function": "set_potion",
+              "id": "poison"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -108,12 +92,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "strong_slowness"
-                }
-              }
+              "function": "set_potion",
+              "id": "strong_slowness"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -130,12 +110,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "strong_harming"
-                }
-              }
+              "function": "set_potion",
+              "id": "strong_harming"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -152,12 +128,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "strong_poison"
-                }
-              }
+              "function": "set_potion",
+              "id": "strong_poison"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -174,12 +146,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "long_slowness"
-                }
-              }
+              "function": "set_potion",
+              "id": "long_slowness"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -196,12 +164,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "long_weakness"
-                }
-              }
+              "function": "set_potion",
+              "id": "long_weakness"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -218,12 +182,8 @@
               }
             },
             {
-              "function": "set_components",
-              "components": {
-                "potion_contents": {
-                  "potion": "long_poison"
-                }
-              }
+              "function": "set_potion",
+              "id": "long_poison"
             }
           ],
           "name": "minecraft:tipped_arrow"
