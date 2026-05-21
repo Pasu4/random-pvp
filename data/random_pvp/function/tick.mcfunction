@@ -11,6 +11,7 @@ execute if score Timer var matches 9000 if score Playing var matches 1 run bossb
 
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run tellraw @a {"text":"Time has run out. Natural regeneration is now disabled!","color":"red"}
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run gamerule naturalRegeneration false
+execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches ..0 run function random_pvp:endgame
 
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches 1.. run tellraw @a {"text":"Timeout! The game is a draw.","color":"blue"}
 execute if score Timer var matches 12000 if score Playing var matches 1 if score TimeoutIsDraw gamerule matches 1.. run scoreboard players set Playing var 0
