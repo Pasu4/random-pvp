@@ -1,0 +1,57 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "camel_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "entity_data": {
+                                    "id": "camel",
+                                    "equipment": {
+                                        "saddle": {
+                                            "id": "saddle"
+                                        }
+                                    },
+                                    "Age": 0,
+                                    "Tame": true,
+                                    "active_effects": [
+                                        {
+                                            "id": "resistance",
+                                            "amplifier": 2,
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cactus",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {"min": 16, "max": 32}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

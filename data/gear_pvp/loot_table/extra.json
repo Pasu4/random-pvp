@@ -212,6 +212,10 @@
                 {
                     "type": "loot_table",
                     "value": "gear_pvp:horse"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "gear_pvp:camel"
                 }
             ]
         }

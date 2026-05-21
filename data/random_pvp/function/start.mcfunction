@@ -27,7 +27,7 @@ kill @a
 gamerule immediate_respawn false
 gamerule show_death_messages true
 
-schedule function random_pvp:start_tick1 2t
+schedule function random_pvp:start_tick1 5t
 
 # Shrink worldborder in the first half of the game
 worldborder set 51 300s
