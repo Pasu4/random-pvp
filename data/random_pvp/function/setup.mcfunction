@@ -43,3 +43,5 @@ bossbar set minecraft:time style notched_10
 bossbar set minecraft:time max 12000
 
 worldborder damage buffer 0
+
+gamerule allow_entering_nether_using_portals false
