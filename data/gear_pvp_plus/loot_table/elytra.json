@@ -24,12 +24,8 @@
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "fireworks": {
-                  "flight_duration": 1
-                }
-              }
+              "function": "minecraft:set_fireworks",
+              "flight_duration": 1
             }
           ]
         }

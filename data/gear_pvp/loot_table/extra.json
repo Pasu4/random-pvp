@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gear_pvp:tnt"
+                    "value": "gear_pvp:tnt"
                 },
                 {
                     "type": "minecraft:item",
@@ -43,8 +43,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 30,
-                            "treasure": false
+                            "levels": 30
                         }
                     ]
                 },
@@ -67,7 +66,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gear_pvp:elytra"
+                    "value": "gear_pvp:elytra"
                 },
                 {
                     "type": "minecraft:item",
@@ -75,8 +74,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 35,
-                            "treasure": false
+                            "levels": 35
                         }
                     ]
                 },
@@ -145,8 +143,59 @@
                     "name": "minecraft:firework_rocket",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:0,Trail:0,Colors:[I;14602026],FadeColors:[I;11743532]},{Type:4,Flicker:0,Trail:0,Colors:[I;11743532],FadeColors:[I;4408131]},{Type:4,Flicker:0,Trail:0,Colors:[I;4408131],FadeColors:[I;1973019]},{Type:4,Flicker:0,Trail:0,Colors:[I;15790320],FadeColors:[I;14602026]},{Type:4,Flicker:0,Trail:1,Colors:[I;11250603]},{Type:4,Flicker:0,Trail:1,Colors:[I;4408131]},{Type:4,Flicker:0,Trail:1,Colors:[I;1973019]}]}}"
+                            "function": "minecraft:set_fireworks",
+                            "flight_duration": 1,
+                            "explosions": {
+                                "mode": "replace_all",
+                                "values": [
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": false,
+                                        "colors": [14602026],
+                                        "fade_colors": [1743532]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": false,
+                                        "colors": [11743532],
+                                        "fade_colors" :[4408131]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": false,
+                                        "colors": [4408131],
+                                        "fade_colors" :[1973019]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": false,
+                                        "colors": [15790320],
+                                        "fade_colors": [4602026]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": true,
+                                        "colors": [11250603]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": true,
+                                        "colors": [4408131]
+                                    },
+                                    {
+                                        "shape": "burst",
+                                        "has_twinkle": false,
+                                        "has_trail": true,
+                                        "colors": [1973019]
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_count",
@@ -172,7 +221,7 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "gear_pvp:horse"
+                    "value": "gear_pvp:horse"
                 }
             ]
         }
